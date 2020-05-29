@@ -1,12 +1,12 @@
-const Signer = require('tiktok-signature');
+import Signer = require('tiktok-signature');
 
 const signerSingleton = new Signer();
 
-export async function init() {
+export async function init(): Promise<void> {
     return signerSingleton.init();
 }
 
-async function close() {
+async function close(): Promise<void> {
     return signerSingleton.close();
 }
 
