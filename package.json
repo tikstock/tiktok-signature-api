@@ -4,7 +4,7 @@
     "description": "An example Signature API using the tiktok-signature module.",
     "main": "server.ts",
     "dependencies": {
-        "express": "^4.17.1",
+        "express": "^4.18.2",
         "tiktok-signature": "^1.1.3"
     },
     "devDependencies": {
